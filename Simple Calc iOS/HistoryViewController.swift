@@ -17,8 +17,11 @@ class HistoryViewController: UIViewController {
         super.viewDidLoad()
         for i in historyDest {
             NSLog("Print \(i)")
-            let label = UILabel()
+            let num = 45
+            let label = UILabel(frame: CGRect(x:0, y: num, width: 250, height: 40))
+            label.textAlignment = .center
             label.text = i
+            label.textColor = .white
             self.view.addSubview(label)
         }
         // Do any additional setup after loading the view.
