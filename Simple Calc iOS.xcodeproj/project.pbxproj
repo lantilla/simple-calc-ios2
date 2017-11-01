@@ -14,6 +14,7 @@
 		5AAB00721F9FEA4B002915E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AAB00701F9FEA4B002915E8 /* LaunchScreen.storyboard */; };
 		5AAB007D1F9FEA4B002915E8 /* Simple_Calc_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AAB007C1F9FEA4B002915E8 /* Simple_Calc_iOSTests.swift */; };
 		5AAB00881F9FEA4B002915E8 /* Simple_Calc_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AAB00871F9FEA4B002915E8 /* Simple_Calc_iOSUITests.swift */; };
+		5AF42FE11FA8F609007606C7 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF42FE01FA8F609007606C7 /* HistoryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		5AAB00831F9FEA4B002915E8 /* Simple Calc iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Simple Calc iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AAB00871F9FEA4B002915E8 /* Simple_Calc_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simple_Calc_iOSUITests.swift; sourceTree = "<group>"; };
 		5AAB00891F9FEA4B002915E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AF42FE01FA8F609007606C7 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				5AAB006E1F9FEA4B002915E8 /* Assets.xcassets */,
 				5AAB00701F9FEA4B002915E8 /* LaunchScreen.storyboard */,
 				5AAB00731F9FEA4B002915E8 /* Info.plist */,
+				5AF42FE01FA8F609007606C7 /* HistoryViewController.swift */,
 			);
 			path = "Simple Calc iOS";
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AF42FE11FA8F609007606C7 /* HistoryViewController.swift in Sources */,
 				5AAB006A1F9FEA4B002915E8 /* ViewController.swift in Sources */,
 				5AAB00681F9FEA4B002915E8 /* AppDelegate.swift in Sources */,
 			);
